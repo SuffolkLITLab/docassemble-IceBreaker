@@ -1,0 +1,27 @@
+---
+mandatory: True
+id: interview order
+code: |
+  lets_go
+  meat_or_cheese
+  nice_chat
+---
+id: welcome
+question: | 
+  Welcome! 
+subquestion: | 
+  Let's get to know one another.
+continue button field: lets_go
+---
+id: end
+question: | 
+  Nice! I feel like I really got to know you.
+event: nice_chat
+---
+id: aubrie 
+question: | 
+  If you had to choose one deli meat or cheese for sheets bedding what would you pick?
+subquestion: |
+  All of the bedding is made of the meat or cheese: pillow cases, top and bottom sheet, blankets 
+fields: 
+  no label: meat_or_cheese
