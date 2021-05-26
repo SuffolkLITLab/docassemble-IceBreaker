@@ -2,7 +2,6 @@
 mandatory: True
 id: interview order
 code: |
-  plocket
   lets_go
   meat_or_cheese
   nice_chat
@@ -26,9 +25,3 @@ subquestion: |
   All of the bedding is made of the meat or cheese: pillow cases, top and bottom sheet, blankets 
 fields: 
   no label: meat_or_cheese
----
-id: plocket
-question: |
-  Conflict question
-fields: 
-  no label: plocket
