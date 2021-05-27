@@ -4,6 +4,19 @@ id: interview order
 code: |
   lets_go
   meat_or_cheese
+  regis_variable
+  joelle_variable
+  amanda_variable
+  eleni_variable
+  shana_variable
+  ryan_variable
+  connor_variable
+  bohdana_variable
+  matt_variable
+  kajol_variable
+  katherine_variable
+  sarah_variable
+  emma_variable
   nice_chat
 ---
 id: welcome
@@ -25,3 +38,87 @@ subquestion: |
   All of the bedding is made of the meat or cheese: pillow cases, top and bottom sheet, blankets 
 fields: 
   no label: meat_or_cheese
+---
+id: regis
+question: | 
+  placeholder for regis
+fields: 
+  answer label: regis_variable
+---
+id: joelle 
+question: | 
+  placeholder for joelle
+fields:
+  answer: joelle_variable
+---
+id: amanda
+question: | 
+  placeholder for amanda
+fields: 
+  answer label: amanda_variable
+---
+id: eleni
+question: | 
+  placeholder for eleni
+fields: 
+  answer label: eleni_variable
+---
+id: shana
+question: | 
+  placeholder for shana
+fields: 
+  answer label: shana_variable
+---
+id: ryan
+question: | 
+  placeholder for ryan 
+fields: 
+  answer label: ryan_variable
+---
+id: connor
+question: | 
+  placeholder for connor
+fields: 
+  answer label: connor_variable
+---
+id: bohdana
+question: | 
+  placeholder for bohdana
+fields: 
+  answer label: bohdana_variable
+---
+id: matt
+question: | 
+  placeholder for matt
+fields: 
+  answer label: matt_variable
+---
+id: kajol
+question: | 
+  placeholder for kajol
+fields: 
+  answer label: kajol_variable
+---
+id: katherine
+question: | 
+  placeholder for katherine
+fields: 
+  answer label: katherine_variable
+---
+id: sarah
+question: | 
+  placeholder for sarah
+fields: 
+  answer label: sarah_variable
+---
+id: emma
+question: | 
+  placeholder for emma
+fields: 
+  answer label: emma_variable
+---
+
+
+
+
+
