@@ -17,6 +17,12 @@ code: |
   katherine_variable
   sarah_variable
   emma_variable
+  david_variable
+  quinten_variable
+  bryce_variable
+  caroline_variable
+  kate_variable
+  lily_variable
   nice_chat
 ---
 id: welcome
@@ -117,8 +123,44 @@ question: |
 fields: 
   answer label: emma_variable
 ---
-
-
-
-
-
+id: david
+question: | 
+  placeholder for david
+fields: 
+  answer label: david_variable
+---
+id: quinten
+question: | 
+  placeholder for quinten
+fields: 
+  answer label: quinten_variable
+---
+id: michelle
+question: | 
+  placeholder for michelle
+fields: 
+  answer label: quinten_variable
+---
+id: bryce
+question: | 
+  placeholder for bryce
+fields: 
+  answer label: bryce_variable
+---
+id: caroline
+question: | 
+  placeholder for caroline
+fields: 
+  answer label: caroline_variable
+---
+id: kate
+question: | 
+  placeholder for kate
+fields: 
+  answer label: kate_variable
+---
+id: lily
+question: |
+  placeholder for lily 
+fields: 
+  answer label: lily_variable
