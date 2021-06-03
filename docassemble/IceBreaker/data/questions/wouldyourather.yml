@@ -94,7 +94,7 @@ fields:
 ---
 id: connor
 question: | 
-  placeholder for connor
+  Would your rather have a mosquito fly around your ear 24/7 or always have a cramp? 
 fields: 
   answer label: connor_variable
 ---
