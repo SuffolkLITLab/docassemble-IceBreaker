@@ -64,9 +64,13 @@ fields:
 ---
 id: joelle 
 question: | 
-  placeholder for joelle
+  If you had to chose, would you rather your food always taste burnt or your drinks always taste sour?
 fields:
-  answer: joelle_variable
+  - I would rather: joelle_variable
+    input type: radio
+    choices:
+      - my food always taste burnt: food_burnt
+      - my drinks always taste sour: drinks_sour
 ---
 id: amanda
 question: | 
