@@ -42,7 +42,7 @@ id: office
 question: | 
   Would you rather have an office where you could wear pajamas to work or work in a really fancy office?
 fields: 
-	- pick: office_choice
+  - pick: office_choice
     input type: radio
     choices: 
       - pajamas: pj_office
@@ -106,9 +106,13 @@ fields:
 ---
 id: connor
 question: | 
-  placeholder for connor
+  Would your rather have a mosquito fly around your ear 24/7 or have a bad cramp 24/7? 
 fields: 
-  answer label: connor_variable
+  - pick: connor_variable
+    input type: radio
+    choices: 
+     - Mosquito: mosquito_connor
+     - Cramp: cramp_connor
 ---
 id: bohdana
 question: | 
