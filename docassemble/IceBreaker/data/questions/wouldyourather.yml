@@ -92,9 +92,13 @@ fields:
 ---
 id: ryan
 question: | 
-  placeholder for ryan 
+  Would you rather eat only one type of food for the rest of your life or only drink one type of drink?
 fields: 
-  answer label: ryan_variable
+  pick: ryan_variable
+  input type: radio
+  choices:
+    - Food: food_choice
+    - Drink: drink_choice
 ---
 id: connor
 question: | 
