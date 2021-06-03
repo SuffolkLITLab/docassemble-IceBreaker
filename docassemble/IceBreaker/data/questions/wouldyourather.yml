@@ -82,9 +82,13 @@ fields:
 ---
 id: shana
 question: | 
-  placeholder for shana
+  Do you prefer chocolate or hard candy?
 fields: 
-  answer label: shana_variable
+  - pick: shana_variable
+    input type: radio
+    choices: 
+      - chocolate: chocolate_choice
+      - hard candy: hard_candy_choice
 ---
 id: ryan
 question: | 
