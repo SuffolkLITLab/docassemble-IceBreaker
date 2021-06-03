@@ -118,9 +118,13 @@ fields:
 ---
 id: katherine
 question: | 
-  placeholder for katherine
+  Who should have sat on the Iron Throne
 fields: 
-  answer label: katherine_variable
+	- pick: katherine_variable
+    input type: radio
+    choices: 
+      - Daenarys: daenarys_character
+      - Jon Snow: jonsnow_character
 ---
 id: sarah
 question: | 
