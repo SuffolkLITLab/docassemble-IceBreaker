@@ -3,6 +3,7 @@ mandatory: True
 id: interview order
 code: |
   lets_go
+  office_choice
   meat_or_cheese
   regis_variable
   joelle_variable
@@ -19,6 +20,7 @@ code: |
   emma_variable
   david_variable
   quinten_variable
+  plocket_variable
   bryce_variable
   caroline_variable
   kate_variable
@@ -36,6 +38,16 @@ id: end
 question: | 
   Nice! I feel like I really got to know you.
 event: nice_chat
+---
+id: office 
+question: | 
+  Would you rather have an office where you could wear pajamas to work or work in a really fancy office?
+fields: 
+	- pick: office_choice
+    input type: radio
+    choices: 
+      - pajamas: pj_office
+      - fancy: fancy_office
 ---
 id: aubrie 
 question: | 
@@ -134,6 +146,18 @@ question: |
   placeholder for quinten
 fields: 
   answer label: quinten_variable
+---
+id: plocket
+question: | 
+  Would you rather let someone read all your emails or see all of your internet history?
+fields: 
+  - Pick one: plocket_variable
+    datatype: radio
+    choices:
+      - Read my emails: emails
+      - See my internet history: history
+  - Why?: plocket_why
+    datatype: area
 ---
 id: michelle
 question: | 
