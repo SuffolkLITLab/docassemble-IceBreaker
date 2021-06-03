@@ -65,7 +65,7 @@ fields:
 ---
 id: eleni
 question: | 
-  placeholder for eleni
+  Would you rather give up choclate or coffee for the rest of your life?
 fields: 
   answer label: eleni_variable
 ---
