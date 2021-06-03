@@ -3,6 +3,7 @@ mandatory: True
 id: interview order
 code: |
   lets_go
+  office_choice
   meat_or_cheese
   regis_variable
   joelle_variable
@@ -36,6 +37,16 @@ id: end
 question: | 
   Nice! I feel like I really got to know you.
 event: nice_chat
+---
+id: office 
+question: | 
+  Would you rather have an office where you could wear pajamas to work or work in a really fancy office?
+fields: 
+	- pick: office_choice
+    input type: radio
+    choices: 
+      - pajamas: pj_office
+      - fancy: fancy_office
 ---
 id: aubrie 
 question: | 
