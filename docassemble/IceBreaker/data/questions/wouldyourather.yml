@@ -93,13 +93,13 @@ fields:
 ---
 id: shana
 question: | 
-  Do you prefer chocolate or hard candy?
+  Would you rather die in space or in the ocean?
 fields: 
   - pick: shana_variable
     input type: radio
     choices: 
-      - chocolate: chocolate_choice
-      - hard candy: hard_candy_choice
+      - space: space_death
+      - ocean: ocean_death
 ---
 id: ryan
 question: | 
