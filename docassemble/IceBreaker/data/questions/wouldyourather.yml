@@ -3,9 +3,6 @@ mandatory: True
 id: interview order
 code: |
   lets_go
-  
-  bryce_variable
-  
   office_choice
   meat_or_cheese
   regis_variable
