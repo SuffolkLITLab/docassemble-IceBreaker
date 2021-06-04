@@ -20,6 +20,7 @@ code: |
   emma_variable
   david_variable
   quinten_variable
+  plocket_variable
   bryce_variable
   caroline_variable
   kate_variable
@@ -187,6 +188,18 @@ fields:
       - Masshole
       - Davis Square Bagels and Donuts
       - Doughboy Donuts and Deli
+---
+id: plocket
+question: | 
+  Would you rather let someone read all your emails or see all of your internet history?
+fields: 
+  - Pick one: plocket_variable
+    datatype: radio
+    choices:
+      - Read my emails: emails
+      - See my internet history: history
+  - Why?: plocket_why
+    datatype: area
 ---
 id: michelle
 question: | 
