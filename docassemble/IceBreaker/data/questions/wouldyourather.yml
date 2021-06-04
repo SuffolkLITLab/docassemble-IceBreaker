@@ -207,9 +207,15 @@ fields:
 ---
 id: michelle
 question: | 
-  placeholder for michelle
+  Would you rather let someone read all your emails or see all of your internet history?
 fields: 
-  answer label: michelle_variable
+  - Pick one: plocket_variable
+    datatype: radio
+    choices:
+      - Read my emails: emails
+      - See my internet history: history
+  - Why?: plocket_why
+    datatype: area
 ---
 id: bryce
 audio: AllYouNeedIsLove-all-clip.mp3
