@@ -128,9 +128,13 @@ fields:
 ---
 id: kajol
 question: | 
-  placeholder for kajol
+  Would you rather have toes as your fingers or fingers as your toes?
 fields: 
-  answer label: kajol_variable
+  - pick: kajol_variable
+    input type: radio
+    choices: 
+      - toes as fingers: toe_finger_choice
+      - finger as toes: finger_toes_choice
 ---
 id: katherine
 question: | 
