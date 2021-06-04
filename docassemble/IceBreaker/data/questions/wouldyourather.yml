@@ -172,15 +172,26 @@ fields:
 ---
 id: quinten
 question: | 
-  placeholder for quinten
+  What is the best donut in Greater Boston?
 fields: 
-  answer label: quinten_variable
+  - no label: quinten_variable
+    datatype: radio
+    shuffle: True
+    choices:
+      - Kanes
+      - Donuts With a Difference
+      - Dunkin Donuts
+      - Union Square Donuts
+      - Flour Bakery
+      - Blackbird
+      - Masshole
+      - Davis Square Bagels and Donuts
 ---
 id: michelle
 question: | 
   placeholder for michelle
 fields: 
-  answer label: quinten_variable
+  answer label: michelle_variable
 ---
 id: bryce
 question: | 
