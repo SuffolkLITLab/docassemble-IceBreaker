@@ -244,6 +244,10 @@ fields:
 ---
 id: lily
 question: |
-  placeholder for lily 
+  Would you prefer ice cream or broccolini for your breakfast?
 fields: 
-  answer label: lily_variable
+  Your favorite breakfast: lily_variable
+  datatype: radio
+  choices:
+  - Ice cream (you must run 3 miles afterwards): ice_cream
+  - Broccolini (you can just walk for 5 minutes): broccolini
