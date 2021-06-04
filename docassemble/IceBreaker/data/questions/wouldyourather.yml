@@ -58,9 +58,15 @@ fields:
 ---
 id: regis
 question: | 
-  placeholder for regis
+  Would you rather be really stressed or really bored?
+subquestion: |
+  I'm talking like reeeeeeeally stressed or reeeeeeeally bored.
 fields: 
-  answer label: regis_variable
+  - pick: regis_variable
+    input type: radio
+    choices : 
+    - stressed: bored_regis
+    - bored: bored_regis
 ---
 id: joelle 
 question: | 
