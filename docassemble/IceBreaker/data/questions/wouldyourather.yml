@@ -3,8 +3,6 @@ mandatory: True
 id: interview order
 code: |
   lets_go
-  office_choice
-  meat_or_cheese
   regis_variable
   joelle_variable
   amanda_variable
@@ -13,6 +11,7 @@ code: |
   ryan_variable
   connor_variable
   bohdana_variable
+  meat_or_cheese
   matt_variable
   kajol_variable
   katherine_variable
@@ -25,6 +24,7 @@ code: |
   caroline_variable
   kate_variable
   lily_variable
+  office_choice
   nice_chat
 ---
 id: welcome
@@ -166,10 +166,14 @@ fields:
   answer label: emma_variable
 ---
 id: david
-question: | 
-  placeholder for david
+question: |
+  Would you rather fight 1 horse-sized duck or 100 duck-sized horses? 
 fields: 
-  answer label: david_variable
+	- pick: david_variable
+    input type: radio
+    choices: 
+      - duck: 1 horse-sized duck
+      - horses: 100 duck-sized horses
 ---
 id: quinten
 question: | 
