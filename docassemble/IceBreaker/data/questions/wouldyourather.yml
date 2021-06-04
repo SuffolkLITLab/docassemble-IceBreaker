@@ -43,7 +43,7 @@ id: office
 question: | 
   Would you rather have an office where you could wear pajamas to work or work in a really fancy office?
 fields: 
-	- pick: office_choice
+  - pick: office_choice
     input type: radio
     choices: 
       - pajamas: pj_office
@@ -59,15 +59,25 @@ fields:
 ---
 id: regis
 question: | 
-  placeholder for regis
+  Would you rather be really stressed or really bored?
+subquestion: |
+  I'm talking like reeeeeeeally stressed or reeeeeeeally bored.
 fields: 
-  answer label: regis_variable
+  - pick: regis_variable
+    input type: radio
+    choices : 
+    - stressed: bored_regis
+    - bored: bored_regis
 ---
 id: joelle 
 question: | 
-  placeholder for joelle
+  If you had to chose, would you rather your food always taste burnt or your drinks always taste sour?
 fields:
-  answer: joelle_variable
+  - I would rather: joelle_variable
+    input type: radio
+    choices:
+      - my food always taste burnt: food_burnt
+      - my drinks always taste sour: drinks_sour
 ---
 id: amanda
 question: | 
@@ -77,27 +87,39 @@ fields:
 ---
 id: eleni
 question: | 
-  placeholder for eleni
+  Would you rather give up choclate or coffee for the rest of your life?
 fields: 
   answer label: eleni_variable
 ---
 id: shana
 question: | 
-  placeholder for shana
+  Do you prefer chocolate or hard candy?
 fields: 
-  answer label: shana_variable
+  - pick: shana_variable
+    input type: radio
+    choices: 
+      - chocolate: chocolate_choice
+      - hard candy: hard_candy_choice
 ---
 id: ryan
 question: | 
-  placeholder for ryan 
+  Would you rather eat only one type of food for the rest of your life or only drink one type of drink?
 fields: 
-  answer label: ryan_variable
+  pick: ryan_variable
+  input type: radio
+  choices:
+    - Food: food_choice
+    - Drink: drink_choice
 ---
 id: connor
 question: | 
-  placeholder for connor
+  Would your rather have a mosquito fly around your ear 24/7 or have a bad cramp 24/7? 
 fields: 
-  answer label: connor_variable
+  - pick: connor_variable
+    input type: radio
+    choices: 
+     - Mosquito: mosquito_connor
+     - Cramp: cramp_connor
 ---
 id: bohdana
 question: | 
@@ -113,15 +135,23 @@ fields:
 ---
 id: kajol
 question: | 
-  placeholder for kajol
+  Would you rather have toes as your fingers or fingers as your toes?
 fields: 
-  answer label: kajol_variable
+  - pick: kajol_variable
+    input type: radio
+    choices: 
+      - toes as fingers: toe_finger_choice
+      - finger as toes: finger_toes_choice
 ---
 id: katherine
 question: | 
-  placeholder for katherine
+  Who should have sat on the Iron Throne
 fields: 
-  answer label: katherine_variable
+	- pick: katherine_variable
+    input type: radio
+    choices: 
+      - Daenarys: daenarys_character
+      - Jon Snow: jonsnow_character
 ---
 id: sarah
 question: | 
@@ -143,9 +173,21 @@ fields:
 ---
 id: quinten
 question: | 
-  placeholder for quinten
+  What is the best donut in Greater Boston?
 fields: 
-  answer label: quinten_variable
+  - no label: quinten_variable
+    datatype: radio
+    shuffle: True
+    choices:
+      - Kanes
+      - Donuts With a Difference
+      - Dunkin Donuts
+      - Union Square Donuts
+      - Flour Bakery
+      - Blackbird
+      - Masshole
+      - Davis Square Bagels and Donuts
+      - Doughboy Donuts and Deli
 ---
 id: plocket
 question: | 
@@ -163,13 +205,20 @@ id: michelle
 question: | 
   placeholder for michelle
 fields: 
-  answer label: quinten_variable
+  answer label: michelle_variable
 ---
 id: bryce
+audio: AllYouNeedIsLove-all-clip.mp3
 question: | 
-  placeholder for bryce
-fields: 
-  answer label: bryce_variable
+  Would you rather all sounds be slower and several octaves lower, or sped up and several octaves higher? 
+subquestion: |
+  Listen to the above for an example. Nothing else about your perception changes (i.e. you aren't suddenly the Flash)
+fields:
+  - Fast or slow?: bryce_variable
+    input type: radio
+    choices:
+      - Fast
+      - Slow
 ---
 id: caroline
 question: | 
