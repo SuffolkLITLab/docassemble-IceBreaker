@@ -55,7 +55,7 @@ question: |
 subquestion: |
   All of the bedding is made of the meat or cheese: pillow cases, top and bottom sheet, blankets 
 fields: 
-  no label: meat_or_cheese
+  - no label: meat_or_cheese
 ---
 id: regis
 question: | 
@@ -83,13 +83,13 @@ id: amanda
 question: | 
   placeholder for amanda
 fields: 
-  answer label: amanda_variable
+  - answer label: amanda_variable
 ---
 id: eleni
 question: | 
   Would you rather give up choclate or coffee for the rest of your life?
 fields: 
-  answer label: eleni_variable
+  - answer label: eleni_variable
 ---
 id: shana
 question: | 
@@ -105,11 +105,11 @@ id: ryan
 question: | 
   Would you rather eat only one type of food for the rest of your life or only drink one type of drink?
 fields: 
-  pick: ryan_variable
-  input type: radio
-  choices:
-    - Food: food_choice
-    - Drink: drink_choice
+  - pick: ryan_variable
+    input type: radio
+    choices:
+      - Food: food_choice
+      - Drink: drink_choice
 ---
 id: connor
 question: | 
@@ -125,13 +125,13 @@ id: bohdana
 question: | 
   placeholder for bohdana
 fields: 
-  answer label: bohdana_variable
+  - answer label: bohdana_variable
 ---
 id: matt
 question: | 
   placeholder for matt
 fields: 
-  answer label: matt_variable
+  - answer label: matt_variable
 ---
 id: kajol
 question: | 
@@ -157,13 +157,13 @@ id: sarah
 question: | 
   placeholder for sarah
 fields: 
-  answer label: sarah_variable
+  - answer label: sarah_variable
 ---
 id: emma
 question: | 
   placeholder for emma
 fields: 
-  answer label: emma_variable
+  - answer label: emma_variable
 ---
 id: david
 question: |
@@ -234,20 +234,20 @@ id: caroline
 question: | 
   placeholder for caroline
 fields: 
-  answer label: caroline_variable
+  - answer label: caroline_variable
 ---
 id: kate
 question: | 
   placeholder for kate
 fields: 
-  answer label: kate_variable
+  - answer label: kate_variable
 ---
 id: lily
 question: |
   Would you prefer ice cream or broccolini for your breakfast?
 fields: 
-  Your favorite breakfast: lily_variable
-  datatype: radio
-  choices:
-  - Ice cream (you must run 3 miles afterwards): ice_cream
-  - Broccolini (you can just walk for 5 minutes): broccolini
+  - Your favorite breakfast: lily_variable
+    datatype: radio
+    choices:
+    - Ice cream (you must run 3 miles afterwards): ice_cream
+    - Broccolini (you can just walk for 5 minutes): broccolini
